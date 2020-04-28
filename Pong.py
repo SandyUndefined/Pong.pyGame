@@ -90,3 +90,4 @@ while True:
         ball.dx*=-1
 
     #Collisions
+    if ball.xcor() > 250  and (ball.ycor() < bar_a.xcor()+ 50 and ball.ycor() > bar_a.ycor()-50):
